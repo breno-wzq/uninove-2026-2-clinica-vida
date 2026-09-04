@@ -37,4 +37,3 @@ Address: 167.99.0.217
 ## Por que o formulário de agendamento precisa de HTTPS
 
 O formulário de agendamento da Clínica Vida+ vai coletar dados sensíveis do paciente, como CPF e telefone, para confirmar a identidade e o contato do agendamento. Sem HTTPS, essas informações trafegam em texto puro pela rede, podendo ser interceptadas por qualquer pessoa no mesmo caminho da conexão, como em uma rede Wi-Fi pública. O HTTPS criptografa a comunicação entre o navegador e o servidor, impedindo que terceiros leiam ou alterem os dados durante o envio. Além disso, expor CPF e telefone sem proteção viola princípios da LGPD, já que são dados pessoais que exigem tratamento seguro. Por isso, o uso de HTTPS é indispensável para garantir a confidencialidade e a integridade dessas informações.
-
