@@ -8,7 +8,7 @@ aplicação completa entregue na Aula 20. O enunciado completo do case está em
 
 ## Identificação
 
-- Nome completo: Breno Juan Bortolace da Silva
+- Nome completo: Breno Juan Bortolace
 - RA: 926117381
 - Turma: quinta
 - O que espero aprender: publicar minha primeira aplicação web na internet.
