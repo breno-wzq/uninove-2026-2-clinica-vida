@@ -1,0 +1,106 @@
+:root {
+  --vida-primaria:   #8e0606;
+  --vida-secundaria: #000000;
+  --vida-destaque:   #e4572e;
+  --vida-fundo:      #b6afaf;
+  --vida-texto:      #1F2A30;
+  --vida-borda:      #D6E2E0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Arial, sans-serif;
+  line-height: 1.6;
+  color: var(--vida-texto);
+  background-color: var(--vida-fundo);
+}
+header {
+  background-color: var(--vida-primaria);
+  color: white;
+  padding: 24px;
+  text-align: center;
+}
+
+header h1 {
+  margin: 0 0 8px 0;
+}
+
+header p {
+  margin: 0;
+}
+
+nav {
+  background-color: var(--vida-secundaria);
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+  list-style: none;
+  margin: 0;
+  padding: 12px 0;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+.lista-especialidades {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  list-style: none;
+  padding: 0;
+  margin: 24px 0;
+}
+
+.lista-especialidades li {
+  background-color: white;
+  border: 1px solid var(--vida-borda);
+  border-radius: 8px;
+  padding: 16px;
+  flex: 1 1 150px;
+  text-align: center;
+  font-weight: bold;
+  color: var(--vida-primaria);
+}
+table {
+  width: 70%;
+  border-collapse: collapse;
+  margin: 20px 0;
+  background-color: white;
+}
+
+caption {
+  font-weight: bold;
+  margin-bottom: 8px;
+  text-align: left;
+}
+
+th, td {
+  border: 1px solid var(--vida-borda);
+  padding: 12px;
+  text-align: left;
+}
+
+thead {
+  background-color: var(--vida-primaria);
+  color: white;
+}
+
+footer {
+  background-color: var(--vida-texto);
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
